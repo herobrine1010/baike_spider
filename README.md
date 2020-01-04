@@ -1,2 +1,4 @@
 # baike_spider
-# 接受一个完整路径的、内容为每行一个关键词的.txt文件，生成若干个.csv。
+- Input: a txt file whose content consists of one key word upon multiple rows.
+- Output: multiple csv files named after the key words, which are exported from Pandas dataframe. Baidu Baike has several titled paragraphs on each page, so the column names come from the title and the contents are stored as single rows in the dataframe. 
+
